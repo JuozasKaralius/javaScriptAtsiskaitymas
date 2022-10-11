@@ -1,10 +1,12 @@
 /* Resets */
 * {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+    'Lucida Sans', Arial, sans-seri
+
+    
 }
 
 /* Mobile first */
@@ -14,21 +16,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #1e803f;
+  border-radius: 50%;
+  margin: 30px;
+
+ 
 }
 
 .btn {
-  width: 300px;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 #btn__element {
   width: 75%;
   padding: 15px 25px;
   background-color: #222;
-  border: #222;
-  color: #fff;
+  border-radius: 50%;
+  border: rgb(51, 185, 14);
+  color: rgb(194, 12, 12);
   font-weight: bold;
   font-size: 2em;
   text-align: center;
@@ -42,9 +49,10 @@
 #btn__state {
   width: 25%;
   padding: 15px 25px;
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(25, 8, 156);
+  border-radius: 50%;
   border: #222;
-  color: #fff;
+  color: rgb(131, 198, 14);
   font-weight: bold;
   font-size: 2em;
   text-align: center;
