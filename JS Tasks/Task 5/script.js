@@ -19,3 +19,33 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+
+//  funkcija kuri grazina vartotojus kurie turi sunis
+
+function filterDogOwers(array){
+  let arrayBack =[];
+  for (let i = 0; i < array.length; i++){
+      if(array[i].hasDog)
+     arrayBack.push(array[i]);
+      }
+  
+  return arrayBack;
+}
+
+// -------------------------------------------------------
+
+// funkcija kuri grazina vartotojus kurie yra pilnameciai
+
+function filterAdults(year){
+  let adultBack =[];
+  for (let i = 0; i < year.length; i++){
+      if(year[i].age >= 18)
+      adultBack.push(year[i]);
+      }
+  
+  return adultBack;
+}
+
+
+console.log(filterDogOwers(users));
+console.log(filterAdults(users));
