@@ -18,7 +18,7 @@ convert.onclick = function() {
 return false;
 }
 
-
+// Converter
 
 function kiloweightConverter() {
     const kilograms = document.getElementById('search').value;
