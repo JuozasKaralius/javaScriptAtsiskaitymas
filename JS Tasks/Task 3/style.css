@@ -46,6 +46,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: grey;
 }
 
 .output-cointainer h1 {
@@ -53,9 +54,34 @@
 }
 
 .output-cointainer #output {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around ;
   width: 80%;
   margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+}
+
+/* truputi stiliaus, kazkas gerai neveikia , bet neturiu laiko ieskot  ant elementu uzejus pasikeicia spalva*/
+.mainContainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  box-shadow: 0 2px 5px rgba(82, 233, 52, 0.12), 0 2px 3px rgba(0,0,0,0.24);
+  
+}
+
+.mainContainer:hover {
+  background-color: rgb(205, 21, 21);
+  font-style: italic;
+ 
+}
+
+img {
+  width: 300px;
 }
