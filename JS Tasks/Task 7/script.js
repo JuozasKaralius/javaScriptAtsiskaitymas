@@ -10,3 +10,15 @@ const audi = {
   year: 2005,
   color: 'white',
 };
+// console.log(audi);
+
+// funkciją "showObjectKeys" kuri grazina objekto key
+
+function showObjectKeys (key) {
+  return Object.keys(key)
+}
+
+console.log(showObjectKeys(audi));
+
+
+// ---------------------------
