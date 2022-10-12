@@ -19,28 +19,3 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
-
-// visu vartotoju amziaus vidurkis 
-
-
-function getUserAverageAge(year){
-  let sum = 0;
-  for (let i = 0; i < year.length; i++){
-      sum+=year[i].age;
-  }
-  return sum/year.length;
-}
-
-// ------------------------------------------
-
-// Visu vartotoju vardai
-
-function getUsersNames(user){
-  let userBack =[];
-  for (let i = 0; i < user.length; i++){
-      userBack[i] = user[i].name;
-  }
-  return userBack;
-}
-console.log(getUserAverageAge(users));
-console.log(getUsersNames(users));

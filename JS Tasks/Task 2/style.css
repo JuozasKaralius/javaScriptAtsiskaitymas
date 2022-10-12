@@ -1,12 +1,10 @@
 /* Resets */
 * {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-seri
-
-    
+    'Lucida Sans', Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -16,26 +14,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e803f;
-  border-radius: 50%;
-  margin: 30px;
-
- 
+  background-color: #f1f1f1;
 }
 
 .btn {
-  width: 80%;
+  width: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 #btn__element {
   width: 75%;
   padding: 15px 25px;
   background-color: #222;
-  border-radius: 50%;
-  border: rgb(51, 185, 14);
-  color: rgb(194, 12, 12);
+  border: #222;
+  color: #fff;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
@@ -49,10 +42,9 @@
 #btn__state {
   width: 25%;
   padding: 15px 25px;
-  background-color: rgb(25, 8, 156);
-  border-radius: 50%;
+  background-color: rgb(59, 59, 59);
   border: #222;
-  color: rgb(131, 198, 14);
+  color: #fff;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
